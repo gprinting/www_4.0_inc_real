@@ -1,0 +1,1336 @@
+query : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno  ,B.member_id, B.member_name  ,A.count  ,A.pay_price  ,A.order_regi_date  ,C.receipt_mng, D.name  ,A.order_state  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  LEFT JOIN empl AS D ON C.receipt_mng = D.empl_id  WHERE 1 = 1  AND A.order_state BETWEEN '1120' AND '9190'  AND A.depo_finish_date BETWEEN '2017-08-14' AND '2017-08-17 23:59:59'  ORDER BY A.depo_finish_date \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13848'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13849'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13850'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13851'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13852'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13853'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13854'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13855'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13856'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13857'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13858'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13859'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13860'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13861'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13862'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13863'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13864'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13876'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13878'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13879'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13880'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13882'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13883'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13886'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13889'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13888'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13893'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13892'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13894'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13896'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13903'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13906'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13916'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13917'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13944'\n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno  ,B.member_id, B.member_name  ,A.count  ,A.pay_price  ,A.order_regi_date  ,C.receipt_mng, D.name  ,A.order_state  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  LEFT JOIN empl AS D ON C.receipt_mng = D.empl_id  WHERE 1 = 1  AND A.order_state BETWEEN '1120' AND '9190'  AND A.depo_finish_date BETWEEN '2017-08-14' AND '2017-08-17 23:59:59'  ORDER BY A.depo_finish_date \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13848'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13849'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13850'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13851'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13852'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13853'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13854'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13855'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13856'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13857'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13858'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13859'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13860'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13861'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13862'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13863'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13864'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13876'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13878'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13879'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13880'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13882'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13883'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13886'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13889'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13888'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13893'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13892'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13894'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13896'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13903'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13906'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13916'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13917'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13944'\n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.ibm  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name NOT LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test2')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test2' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test2' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13014'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13167'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13614'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13627'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13641'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13651'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13714'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13669'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13715'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13700'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13761'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13755'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13730'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13733'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13743'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test2'
+  WHERE  order_common_seqno IN ('13014','13167','13614','13627','13641','13651','13714','13669','13715','13700','13761','13755','13730','13733','13743')\n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1370'  , title = '반8-6' WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1370'  , receipt_memo = '' WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1370' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1370'  , title = '반8-6' WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1370'  , receipt_memo = '' WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1370' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13791','13790')\n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13791','13790')\n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13791','13790')\n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price, D.save_file_name  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13791','13790')\n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price, D.save_file_name  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price, D.save_file_name  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price, D.save_file_name  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price, D.save_file_name, D.file_path  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price, D.save_file_name, D.file_path  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price, D.save_file_name, D.file_path  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1370'  , title = '반8-6' WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1370'  , receipt_memo = '' WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1370' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '샤인4-5'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00267' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00267%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00267%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price, D.save_file_name, D.file_path  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13791','13790')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price, D.save_file_name, D.file_path  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price, D.save_file_name, D.file_path  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price, D.save_file_name, D.file_path  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\nquery : SELECT /* 수동접수 - 작업목록 얻기 */ A.order_num, A.title, A.cate_sortcode, A.order_detail, A.order_common_seqno, A.order_state  ,B.member_id, B.member_name, G.cate_name, B.onefile_etprs_yn  ,C.side_dvs, A.count ,A.order_regi_date, C.receipt_mng, A.pay_price, D.save_file_name, D.file_path  FROM order_common AS A  INNER JOIN member AS B ON A.member_seqno = B.member_seqno  INNER JOIN order_detail AS C ON A.order_common_seqno = C.order_common_seqno  INNER JOIN order_file AS D ON A.order_common_seqno = D.order_common_seqno  INNER JOIN member_mng AS E ON A.member_seqno = E.member_seqno  INNER JOIN empl AS F ON F.empl_seqno = E.mac  INNER JOIN cate AS G ON A.cate_sortcode = G.sortcode  WHERE D.origin_file_name LIKE '%.sit'  AND (A.order_state = '1320' OR ((A.order_state = '1330' OR A.order_state = '1370') AND C.receipt_mng = 'test3')) AND A.receipt_dvs = 'Manual'  AND A.order_num like '%170810%'  AND (C.receipt_mng = 'test3' OR C.receipt_mng = '' OR C.receipt_mng IS NULL)  ORDER BY  CASE  WHEN F.empl_id = 'test3' then 1  ELSE 2 END , A.order_regi_date  LIMIT 20 \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13690'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13701'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13723'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13732'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13739'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13750'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13754'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13759'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13785'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13790'\n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13791'\n\n\nquery : 
+ UPDATE  order_detail 
+   SET  receipt_mng = 'test3'
+  WHERE  order_common_seqno IN ('13682','13690','13701','13723','13732','13739','13750','13754','13759','13785','13790','13791')\n\n\nquery :  SELECT /* 수동접수 - 주문상세정보 */  A.order_num, A.title, A.order_common_seqno, A.order_state, A.count, A.amt_unit_dvs, A.receipt_finish_date,   A.cate_sortcode, C.cate_name, B.order_detail_dvs_num, B.typset_way,  E.member_id, E.member_name,  A.count, A.order_regi_date, D.name, D.color, D.basisweight,  B.work_size_wid, B.work_size_vert, B.cut_size_wid, B.cut_size_vert,  B.stan_name, B.side_dvs, B.tot_tmpt, B.amt, A.cust_memo, F.file_path, F.save_file_name, B.receipt_mng, B.receipt_memo,  G.dlvr_way, G.dlvr_sum_way, H.name as empl_name  FROM order_common AS A  INNER JOIN order_detail AS B ON A.order_common_seqno = B.order_common_seqno  INNER JOIN cate AS C ON A.cate_sortcode = C.sortcode  INNER JOIN cate_paper AS D ON B.cate_paper_mpcode = D.mpcode  INNER JOIN member AS E ON A.member_seqno = E.member_seqno  INNER JOIN order_file AS F ON A.order_common_seqno = F.order_common_seqno  LEFT JOIN order_dlvr AS G ON A.order_common_seqno = G.order_common_seqno AND G.tsrs_dvs = '수신'  LEFT JOIN empl AS H ON B.receipt_mng = H.empl_id  WHERE A.order_num = %s \n\n\nquery : 
+ SELECT  * 
+  FROM  order_opt_history 
+  WHERE  order_common_seqno = '13682'\n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_common  SET order_state = '1330'  , title = '반8-6'  , receipt_start_date = now() WHERE order_num = 'GPT170810NC00259' \n\n\nquery :  UPDATE /* 수동접수 - 작업수정 */ order_detail  SET state = '1330'  , receipt_memo = ''  , receipt_start_date = now() WHERE order_detail_dvs_num like '%GPT170810NC00259%' \n\n\nquery :  UPDATE /* 접수 - 주문정보수정 */ order_detail_count_file  SET state = '1330' WHERE order_detail_file_num like '%GPT170810NC00259%' \n\n\n
